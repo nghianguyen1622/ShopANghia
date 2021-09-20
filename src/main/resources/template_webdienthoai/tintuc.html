@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Web Mobile</title>
+    <script src="js/defer_plus.js" type="text/javascript"></script>
+    <script>deferscript('js/polyfill.js', 'polyfill-js', 1)</script>
+    <meta name="description" content="">
+    <meta name="keywords" content="Kiến vàng, Ant Theme"/>
+    <link rel="canonical" href="https://ant-mobile.bizwebvietnam.net"/>
+    <meta name='revisit-after' content='1 days' />
+    <meta name="robots" content="noodp,index,follow" />
+    <link rel="icon" href="https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/favicon.png?1559638811340" type="image/x-icon" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ant Mobile">
+    <meta property="og:image" content="https:https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/logo.png?1559638811340">
+    <meta property="og:image:secure_url" content="https:https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/logo.png?1559638811340">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://ant-mobile.bizwebvietnam.net">
+    <meta property="og:site_name" content="Ant Mobile">
+    <link href="css/bootstrap.scss.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugin.scss.css" rel="stylesheet" type="text/css" />
+    <link href="css/base.scss.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body >
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-100-h">
+                <!--                  tạo form đăng nhập-->
+
+
+                <div class="tab" style="padding-top: 15px">
+                    <a href="sign.html"> <button class="tab-link active"style="border-radius: 5px; color: red;background-color: white" title="Đăng nhập ngay!"> Đăng nhập</button></a>
+                    <a href="sign.html"><button class="tab-link"style="border-radius: 5px;color: red;background-color: white"title="Đăng ký ngay!"> Đăng ký</button></a>
+                </div>
+
+
+
+
+                <!--                  kết thúc tọa form đăng nhập-->
+                <div class="mobile-cart visible-sm visible-xs">
+                    <a href="giohang.html" title="Giỏ hàng">
+                        <i class="fa fa-cart-arrow-down"></i>
+                        <div class="cart-right"><span class="count_item_pr">0</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 add-arrow">
+                <form class="search-bar has-validation-callback" action="/search" method="get" role="search">
+                    <input type="search" name="query" value="" placeholder="Tìm kiếm..." class="input-group-field search-text" autocomplete="off">
+                    <button class="btn icon-fallback-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 451 451" style="enable-background:new 0 0 451 451;" xml:space="preserve" width="20px" height="20px">
+                           <g>
+                              <g>
+                                 <path d="M447.05,428l-109.6-109.6c29.4-33.8,47.2-77.9,47.2-126.1C384.65,86.2,298.35,0,192.35,0C86.25,0,0.05,86.3,0.05,192.3   s86.3,192.3,192.3,192.3c48.2,0,92.3-17.8,126.1-47.2L428.05,447c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4   C452.25,441.8,452.25,433.2,447.05,428z M26.95,192.3c0-91.2,74.2-165.3,165.3-165.3c91.2,0,165.3,74.2,165.3,165.3   s-74.1,165.4-165.3,165.4C101.15,357.7,26.95,283.5,26.95,192.3z" data-original="#000000" class="active-path" data-old_color="#ff3300" fill="#ff3300"/>
+                              </g>
+                           </g>
+                        </svg>
+                    </button>
+                </form>
+                <div class="arrow-left"></div>
+            </div>
+            <div class="col-md-7 col-lg-7 nav-bg-white hidden-sm hidden-xs">
+                <ul id="nav" class="nav">
+                    <li class="nav-item "><a class="nav-link" href="index.html" title="Trang chủ">Trang chủ</a></li>
+                    <li class="nav-item "><a class="nav-link" href="gioithieu.html" title="Giới thiệu">Giới thiệu</a></li>
+                    <li class="nav-item has-mega">
+                        <a href="sanpham.html" class="nav-link" title="Sản phẩm">Sản phẩm <i class="fa fa-angle-down" data-toggle="dropdown"></i></a>
+                        <div class="mega-content">
+                            <ul class="level0">
+                                <li class="level1 parent item">
+                                    <a class="hmega" href="sanpham.html" title="Laptop">Laptop</a>
+                                    <ul class="level1">
+                                        <li class="level2">
+                                            <a href="macbook.html" title="Apple (Macbook)">Apple (Macbook)</a>
+                                        </li>
+                                        <li class="level2">
+                                            <a href="asus.html" title="Asus">Asus</a>
+                                        </li>
+                                        <li class="level2">
+                                            <a href="dell.html" title="Dell">Dell</a>
+                                        </li>
+                                        <li class="level2">
+                                            <a href="hp.html" title="HP">HP</a>
+                                        </li>
+                                        <li class="level2">
+                                            <a href="lenovo.html" title="Lenovo">Lenovo</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="tintuc.html" class="nav-link" title="Tin tức">Tin tức </a>
+
+                    </li>
+                    <li class="nav-item "><a class="nav-link" href="lienhe.html" title="Liên hệ">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/option-selectors.js" type="text/javascript"></script>
+<script src="js/api.jquery.js?4" type="text/javascript"></script>
+<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+<h1 class="hidden">Ant Mobile</h1>
+<!--tin tức-->
+<!doctype html>
+<html lang="vi">
+
+
+<head>
+    <meta content="INDEX,FOLLOW" name="robots" />
+
+    <meta name="viewport" content="width=device-width" />
+    <meta name="copyright" content="Công ty Cổ phần Thế Giới Di Động" />
+    <meta name="author" content="Công ty Cổ phần Thế Giới Di Động" />
+    <meta http-equiv="audience" content="General" />
+    <meta name="resource-type" content="Document" />
+    <meta name="distribution" content="Global" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="GENERATOR" content="Công ty Cổ phần Thế Giới Di Động" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="/tin-tuc/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="publisher" href="https://plus.google.com/+Thegioididongdotcom/posts" />
+    <link rel="author" href="https://plus.google.com/+Thegioididongdotcom/posts" />
+    <meta property="og:site_name" content="Thegioididong.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <!--    <link rel="dns-prefetch" href="https://cdn.thegioididong.com/">-->
+    <!--    <link rel="dns-prefetch" href="https://cdn.thegioididong.com/">-->
+    <!--    <link rel="dns-prefetch" href="https://cdn.thegioididong.com/">-->
+    <!--    <link rel="dns-prefetch" href="https://cdn.thegioididong.com/">-->
+    <!--    <link rel="dns-prefetch" href="https://cdn.thegioididong.com/">-->
+
+    <meta name="keywords" content="Tin tức, tin công nghệ, tin điện thoại, đánh giá sản phẩm" />
+    <meta name="description" content="Thông tin công nghệ về điện thoại di động, máy tính bảng, laptop mới nhất được cập nhật hằng giờ. Tin về sản phẩm mới mắt, đánh giá sản phẩm, mẹo hay sử dụng..." />
+    <style rel="stylesheet">
+        /* 03:26:01 11/11/2019 */@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://cdn.tgdd.vn/fonts/roboto-condensed/Zd2E9abXLFGSr9G3YK2MsEYkBUapGhkWjcxWm3_vZWA.woff) format('woff')}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://cdn.tgdd.vn/fonts/roboto-condensed/b9QBgL0iMZfDSpmcXcE8nAXW-UgdjZ3YrDta4-p32EE.woff) format('woff')}@font-face{font-family:'Roboto Condensed';font-style:italic;font-weight:400;src:local('Roboto Condensed Italic'),local('RobotoCondensed-Italic'),url(https://cdn.tgdd.vn/fonts/roboto-condensed/BP5K8ZAJv9qEbmuFp8RpJau6VQ0jQQbvSE8VA7z_fVA.woff) format('woff')}@font-face{font-family:'Roboto Condensed';font-style:italic;font-weight:700;src:local('Roboto Condensed Bold Italic'),local('RobotoCondensed-BoldItalic'),url(https://cdn.tgdd.vn/fonts/roboto-condensed/mg0cGfGRUERshzBlvqxeAKyfWPSGaEIhFC6Y-MJ0oyw.woff) format('woff')}
+        /* 03:26:01 11/11/2019 */*{margin:0;padding:0}body{min-width:1024px}img{border:0}a{text-decoration:none}ul,ol{list-style:none}.clr{clear:both}p{-webkit-margin-before:0;-webkit-margin-after:0;-webkit-margin-start:0;-webkit-margin-end:0;text-rendering:geometricPrecision}input[type=text],input[type=tel],textarea{-webkit-appearance:none}body,input,button,option,textarea,label,legend,h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font:14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;color:#333;outline:none;zoom:1}header{position:absolute;top:0;min-width:1024px;background: #ff301f;width:100%;height:55px}  section{max-width:1200px;width:100%;min-width:980px;margin:55px auto 0;position:relative}  footer{width:100%;min-width:1024px;margin:0 auto;background:#fff;overflow:hidden;clear:both}  .hide{display:none}  .wrap-main{max-width:1200px;min-width:1024px;width:100%;height:55px;background:#000;margin:auto;position:relative;display:block}  .logo{float:left;width:165px;display:block;padding:14px 0 11px 5px}  .logo a{display:block;overflow:hidden}  #search-site{float:left;width:230px;height:35px;margin:10px 10px 0 10px;background:#fff;position:relative;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}  .topinput{float:left;width:162px;margin-left:8px;padding-top:3px;border:0;position:relative;background:#fff;height:30px;text-indent:10px;font-size:13px}  .btntop{float:right;width:40px;height:35px;border:0;background:none}  nav{width:780px;background:#fed700;margin:0;padding:0;display:table;*display:block;*float:none}  nav a{display:table-cell;*float:left;width:75px;height:43px;padding:3px 0 4px;color:#000;background:#fed700;font-size:11px;text-align:center;text-transform:uppercase;position:relative}  nav a:hover,nav a.actmenu{background-color:#f5f5f5}  nav a.mobile{width:70px}  nav a.tablet{width:60px}  nav a.laptop{width:60px}  nav a.phukien{width:60px}  nav a.simcard{width:60px}  nav a.ask{width:60px}  nav a.gameapp{width:60px}  nav a span{display:block;position:absolute;top:9px;width:23px;margin:auto;left:0;right:0;font-size:11px}  nav a.cardsim,nav a.utility{text-transform:none;font-size:13px;padding:0;vertical-align:middle;line-height:19px;border-left:1px solid rgba(0,0,0,.1);padding-top:6px}  nav a.utility{width:100px}  [class^="icontgdd-"],[class*="icontgdd-"],[class^="iconmobile-"],[class*="iconmobile-"]{background-repeat:no-repeat;display:inline-block;height:30px;width:30px;line-height:30px;vertical-align:middle}@media all and (-webkit-min-device-pixel-ratio:1.5){[class^="icontgdd-"],[class*="icontgdd-"],[class^="iconmobile-"],[class*="iconmobile-"]{background-size:500px 100px}}  .icontgdd-logo{background-position:0 0;width:156px;height:30px;display:block;margin:auto}  .icontgdd-topsearch{background-position:-160px 0;width:20px;height:20px;display:block;margin:1px auto 0}  .icontgdd-mobile{background-position:-190px 0;width:15px;height:25px;display:block;margin:2px auto 3px}  .icontgdd-tablet{background-position:-209px 0;display:block;margin:0 auto 5px;width:33px;height:22px}  .icontgdd-laptop{background-position:-245px 0;display:block;margin:0 auto 5px;width:39px;height:21px}  .icontgdd-phukien{background-position:-288px 0;display:block;margin:0 auto 5px;width:22px;height:22px}  .icontgdd-maydoitra{background-position:-315px 0;display:block;margin:0 auto 4px;width:34px;height:26px}  .icontgdd-simcard{background-position:-355px 0;display:block;margin:0 auto 5px;width:18px;height:23px}  .icontgdd-news{background-position:-375px 0;display:block;margin:0 auto 2px;width:29px;height:24px}  .icontgdd-ask{background-position:-410px 0;display:block;margin:0 auto 3px;width:25px;height:25px}  .icontgdd-gameapp{background-position:-439px 0;display:block;margin:0 auto 5px;height:20px;width:32px}  .icontgdd-promo{background-position:-475px 0;display:block;margin:0 auto 3px;width:22px;height:24px}  .icontgdd-watch{background-position:-362px -50px;display:block;margin:0 auto 0;width:16px;height:27px}  .rowfoot1{display:block;overflow:hidden;width:100%;min-width:1024px;max-width:1200px;margin:0 auto;padding:15px 0}  .colfoot{float:left;width:28%;margin:0;position:relative}  .collast{width:11%;float:right}  .colfoot li{float:none;position:relative;font-size:13px;color:#444}  .colfoot li a{display:block;color:#288ad6;font-size:14px;line-height:25px;padding-top:5px}  .colfoot li a:hover{color:#666}  .colfoot li a.bct,.colfoot li a.dmca-badge{display:inline-block}  .colfoot li p{display:block;padding-top:5px;line-height:25px;font-size:14px;color:#666}  .colfoot li p a{display:inline;font-weight:600;color:#333;padding:0 5px}  .colfoot li.showmore{font-weight:bold}  .colfoot li.showmore a:after{content:'';display:inline-block;width:0;height:0;border-top:5px solid #288ad6;border-left:5px solid transparent;border-right:5px solid transparent;margin:0 0 0 5px;position:relative;top:-2px}  .colfoot li.showmore a:hover:after{border-top:5px solid #666}  .colfoot li.hidden{display:none}  .colfoot li a.linkfb{float:left;padding:0 10px 0 0;margin:9px 0 2px;border-right:1px solid #e9e9e9;font-size:12px;line-height:1;color:#288ad6}  .colfoot li a.linkyt{float:left;padding:0 0 0 10px;margin:9px 0 2px;font-size:12px;color:#288ad6;line-height:1}  .colfoot li a.dmx{display:block;overflow:hidden;clear:both;padding:5px 0}  .rowfoot2{width:100%;min-width:980px;overflow:hidden;background:#f8f8f8;padding:10px 0}  .rowfoot2 p{display:block;width:100%;margin:auto;font-size:10px;color:#999;text-align:center;font-size:10px !important}  .rowfoot2 a{color:#999}  .icontgdd-share1{background-position:0 -30px;width:13px;height:13px;margin-right:3px}  .icontgdd-share3{background-position:-16px -30px;width:17px;height:13px;margin-right:3px}  .icontgdd-dmx{background-position:-36px -30px;width:100px;height:19px}  .icontgdd-bct{background-position:0 -50px;width:123px;height:38px}  .stickcart{position:fixed;right:70px;bottom:42px;background:#fff;border-radius:40px;box-shadow:0 0 10px 0 rgba(0,0,0,.15);font-size:14px;color:#288ad6;padding:0 10px 0 0;width:130px;z-index:99}  .stickcart div{float:left;width:38px;height:38px;border-radius:40px;background:#ffde31;margin:2px 5px 2px 2px}  .stickcart span{display:block;padding:4px 0 0;white-space:nowrap}  .stickcart strong{display:block;white-space:nowrap}  .icontgdd-cartstick{background-position:-265px -30px;width:22px;height:18px;display:block;margin:11px 0 0 6px}  [class^="iconlogo-"],[class*="iconlogo-"]{background-repeat:no-repeat;display:inline-block;height:30px;width:30px;line-height:30px;vertical-align:middle}@media(-webkit-min-device-pixel-ratio:1.5){[class^="iconlogo-"],[class*="iconlogo-"]{background-size:517px 20px}}  .iconlogo-bhx{background-position:-220px 0;width:110px;height:19px}  .iconlogo-dmx{background-position:-109px 0;width:111px;height:19px}  .iconlogo-vv{background-position:-350px 0;width:74px;height:19px}  .group{display:block;overflow:hidden;clear:both}  .group label{display:block;font-size:12px;color:#888;margin-top:10px}  .group a{display:block;vertical-align:top;padding-top:0 !important}  .breadcrumb{display:block;overflow:hidden;margin:0;background:#fff;line-height:32px;padding-top:5px}  .breadcrumb li{display:inline-block;vertical-align:middle;overflow:hidden}  .breadcrumb li a{display:inline-block;white-space:nowrap;font-size:14px;color:#288ad6;padding:0 10px 0 0}  .breadcrumb span{display:inline-block;font-size:20px;color:#999;padding:2px 5px 0 0;line-height:1}  .breadcrumb li h1,.breadcrumb li h2{display:inline-block;font-size:14px;color:#288ad6;font-weight:normal;line-height:32px}  .breadcrumb li h1 a{color:#288ad6}  .breadcrumb li h2 a{padding-left:2px;color:#288ad6}  #back-top{display:none;z-index:99}  #back-top span:before{cursor:pointer;background:#fdd504;width:40px;position:fixed;right:20px;bottom:45px;height:40px;text-align:center;line-height:40px;font-size:18px;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-transition:all .2s linear;color:#000;content:"▲";opacity:.7;z-index:8;border-radius:5px}  #back-top span:hover:before{opacity:1}  #dlding,#imgtrack{display:none}  .wrap-suggestion{display:block;border:1px solid #e2e2e2;background:#fff;position:absolute;left:0;width:345px;top:45px;z-index:9}  .wrap-suggestion:after,.wrap-suggestion:before{bottom:100%;left:80px;border:solid transparent;content:" ";height:0;width:0;position:absolute}  .wrap-suggestion:after{border-color:rgba(255,255,255,0);border-bottom-color:#fff;border-width:8px;margin-left:-8px}  .wrap-suggestion:before{border-color:rgba(218,218,218,0);border-bottom-color:#dadada;border-width:9px;margin-left:-9px}  .wrap-suggestion li{display:block;background:#fff;overflow:hidden;list-style:none;border-bottom:1px dotted #ccc}  .wrap-suggestion li:last-child{border-bottom:0}  .wrap-suggestion li:hover,.wrapp-producthome .wrap-suggestion li.selected,.wrap-main .wrap-suggestion li.selected{background:#f8f8f8}  .wrap-suggestion li a{display:block;overflow:hidden;padding:6px;color:#999;font-size:12px}  .wrap-suggestion li a img{float:left;width:50px;height:auto;margin:0 6px 0 0}  .wrap-suggestion li a h3{display:block;width:auto;color:#333;font-size:14px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}  .wrap-suggestion li a h6{font-size:12px;color:#e67e22}  .wrap-suggestion li a span{float:left;font-size:13px;color:#333}  .wrap-suggestion li a span.price{font-size:12px;color:#c70100;float:none}  .wrap-suggestion li a label{display:block;font-size:12px;color:#999;padding-left:56px}  .wrap-suggestion li a label strong{font-size:12px;color:#d0021b}  .wrap-suggestion li.samsung img{display:inline-block;vertical-align:middle;width:80px}  .wrap-suggestion li.samsung b{display:inline-block;vertical-align:middle;color:#333}@media screen and (max-width:1220px){.wrap-main{width:1024px}.logo{width:35px}.icontgdd-logo{width:28px}#search-site{width:200px}.topinput{width:152px}nav{width:764px}nav a{font-size:11px}.colfoot li a{padding:0 0 0 5px;line-height:30px}.colfoot{width:26.5%}.collast{width:13%}.colfoot li a.bct{padding:0}.breadcrumb{margin:0 10px}}
+        /* 03:26:01 11/11/2019 */input[type=text],input[type=tel],textarea{-webkit-appearance:none}[class^="iconnews-"],[class*="iconnews-"]{background-image:url(https://cdn.tgdd.vn/tin-tuc/Content/desktop/images/newsdesktop-v6@2x.png);background-size:390px 224px;background-repeat:no-repeat;display:inline-block;height:30px;width:30px;line-height:30px;vertical-align:middle}section{max-width:1200px;width:100%;min-width:980px;margin:55px auto 0}.menu{float:left;overflow:visible;height:70px;clear:both;margin:auto;width:80%;max-width:1200px}.menu li{display:inline-block;margin:0 10px;font-family:Roboto Condensed,sans-serif;height:auto;margin:28px 0;position:relative}.menu li a{display:block;padding:3px 5px;font-size:15px;color:#333;text-transform:uppercase;font-weight:300;background:#fff;border-radius:2px}.menu li a.new{margin-right:25px}.menu li a:hover{color:#4a90e2}.menu li a.actmenu{background: #ff301f
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }  .menu li a.actmenu:hover{color:#333}  .menu li.menucommunity{float:right;font-family:Arial,Helvetica,sans-serif}  .menu li.menucommunity .logged{float:left}  .menu li.menucommunity .logged .user{float:left;text-transform:none;color:#333;font-size:14px;font-weight:600;padding:0 10px}  .menu li.menucommunity .logged .user img{float:left;width:25px;height:25px;border-radius:25px;margin:2px 5px 0 0}  .menu li.menucommunity .logged .user strong{padding:0 15px 0 0;border-right:1px solid #d9d9d9;float:left;margin:5px 0}  .menu li.menucommunity .logged .logout{color:#333;font-size:14px;text-transform:none;font-weight:300;padding:6px 10px;float:left;margin-right:15px}  .menu li label.menulabel{position:absolute;right:5px;font-size:11px;padding:0 5px;background:#f00;color:#fff;border-radius:3px;line-height:1.6;text-transform:uppercase;top:-19px}  .menu .messenger{text-transform:none;color:#288ad6;margin:0}  .menu .messenger b{background-image:url(https://cdn.tgdd.vn/tin-tuc/Content/desktop/images/icon/icon-messenger.png);display:inline-block;width:16px;height:16px;vertical-align:middle;margin-right:2px}  .menu .messenger div{font-size:16px;display:inline-block}  .iconnews-commublue{background-position:-45px 0;width:20px;height:12px;display:block;margin:7px auto}  .menu li.menucommunity .linkcommu{float:right;border:1px solid #d9d9d9;color:#288ad6;font-weight:600;padding:7px 10px 3px;background:#eee;background:-webkit-gradient(linear,0% 0%,0% 100%,from(#eee),to(#fff));background:-webkit-linear-gradient(top,#fff,#eee);background:-moz-linear-gradient(top,#fff,#eee);background:-ms-linear-gradient(top,#fff,#eee);background:-o-linear-gradient(top,#fff,#eee);position:relative}  .menu li.menucommunity .linkcommu span{float:left;height:30px;width:30px;border-right:1px solid #d9d9d9;margin:-7px 7px -7px -7px}  .menu li.menucommunity .linkcommu label{position:absolute;top:-20px;font-size:11px;right:0;color:#f89406;font-weight:bold}  .mnfoo{border-top:1px solid #eee}  .menucommunity .login{color:#333;font-size:14px;text-transform:none;font-weight:300;padding:6px 10px;float:left;margin-right:15px;position:relative;cursor:pointer;height:30px}  .menucommunity .login:hover .colcon{display:block}  .colcon{display:none;overflow:visible;padding:10px;position:absolute;top:40px;z-index:15;width:280px;background:#fff;left:-116%;box-shadow:0 4px 12px 0 rgba(0,0,0,.3);border-radius:4px}  .colcon:after,.colcon:before{bottom:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}  .colcon:after{border-bottom-color:#fff;border-width:10px;margin-left:-10px}  .colcon:before{border-bottom-color:#eee;border-width:12px;margin-left:-12px}  .menucommunity .login .fblogin{text-transform:none;display:block;overflow:hidden;margin-bottom:10px;border-radius:4px;font-size:16px;color:#fff;padding:10px;background:#3b5998;background:-webkit-gradient(linear,0% 0%,0% 100%,from(#3b5998),to(#3a66c3));background:-webkit-linear-gradient(top,#3a66c3,#3b5998);background:-moz-linear-gradient(top,#3a66c3,#3b5998);background:-ms-linear-gradient(top,#3a66c3,#3b5998);background:-o-linear-gradient(top,#3a66c3,#3b5998)}  .iconnews-flog{background-position:-295px -45px;width:14px;height:27px;margin:0 20px 0 10px}  .menucommunity .login .gglogin{text-transform:none;display:block;overflow:hidden;border-radius:4px;font-size:16px;color:#fff;padding:10px;background:#c32808;background:-webkit-gradient(linear,0% 0%,0% 100%,from(#c32808),to(#e3411f));background:-webkit-linear-gradient(top,#e3411f,#c32808);background:-moz-linear-gradient(top,#e3411f,#c32808);background:-ms-linear-gradient(top,#e3411f,#c32808);background:-o-linear-gradient(top,#e3411f,#c32808)}  .iconnews-glog{background-position:-275px -45px;width:16px;height:26px;margin:0 20px 0 10px}  .colcon p{display:block;overflow:hidden;font-size:12px;color:#999;margin:10px 0 0}  #dlding{background:#000;border-radius:5px 0 0 0;bottom:0;color:#fff;display:none;opacity:.7;padding:8px 15px;position:fixed;right:0;z-index:99999999}  .hide{display:none !important}  .home-menu .menu{margin:auto !important}  .home-menu section{margin:55px auto 0}  .iconnews-closegal{background-position:-146px 0;width:14px;height:14px;display:block}  .hot-lst{position:relative;overflow:hidden}  .hot-lst li a{overflow:visible;background:#0078d7;float:left;position:relative;color:#fff;font-size:11px;margin:2px 5px 7px 12px;padding:0 15px 0 12px;height:24px;line-height:24px;border-top-right-radius:4px;border-bottom-right-radius:4px}  .hot-lst li a:before{content:"";float:left;position:absolute;top:0;left:-12px;width:0;height:0;border-color:transparent #0078d7 transparent transparent;border-style:solid;border-width:12px 12px 12px 0}  .hot-lst li a:after{content:"";position:absolute;top:10px;left:0;float:left;width:4px;height:4px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;background:#fff;-moz-box-shadow:-1px -1px 2px #004977;-webkit-box-shadow:-1px -1px 2px #004977;box-shadow:-1px -1px 2px #004977}  .newslist li .banner a img{height:auto}  .sortNews{display:block;overflow:hidden;background:#fff}  .sortNews label{float:left;margin-right:20px;cursor:pointer}  .choose .icontgdd-opt,.choose .iconmobile-opt{background-position:-400px -30px}  .icontgdd-opt,.iconmobile-opt{background-position:-380px -30px;width:16px;height:16px;vertical-align:sub}  .sortbyNews{float:left;display:inline}  .infopage label{margin-right:20px;cursor:pointer}  .infopage label a{color:#333}  .infopage label a:visited{color:#333}  .infopage label.relateNews{margin-left:10px}  #social{display:none}  .relate{position:relative;padding:20px 20px 30px;overflow:hidden}  .user-login{float:right;overflow:visible;padding-left:10px;padding:20px 0 20px 12px;cursor:pointer;position:relative;max-width:220px}  .user-login:before{content:"";position:absolute;border-left:1px solid #dfdfdf;left:0;height:27px;top:32%}  .user-login span{float:left;color:#666;vertical-align:top;padding-top:7px;display:-webkit-box;max-width:80%;height:19px;min-width:72px;word-break:break-word;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;text-transform:capitalize}  .user-login img{color:#666;border-radius:20px;background:#4da0b0;background:-webkit-linear-gradient(to left,#4da0b0,#d39d38);background:linear-gradient(to left,#4da0b0,#d39d38);margin-right:5px;object-fit:cover;float:left}  .user-login .iconnews-ava-default{float:left;margin-right:10px}  .user-login span.log-in{padding-top:4px}  .user-login span.log-in:hover{color:#288ad6}  .iconnews-ava-default{width:25px;height:25px;background-position:-325px -53px;margin-right:3px}  .box-container{position:fixed;left:0;right:0;margin:0 auto;border-radius:4px;background:#fff;z-index:100000;width:50%;max-height:80vh;overflow:hidden;overflow-y:auto}  .box-container .relate>p{font-size:13px;color:#666;display:block;margin:15px auto;text-align:center;width:60%}  .box-container .relate>p b a{color:#666}  .box-container h3{text-align:center;font-size:20px;font-weight:bold;color:#333;margin:10px}  .box-container .close{position:absolute}  .box-container.atProf{width:35%}  .box-container.atProf h3{margin:10px 0 50px}  .overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:20000;background:rgba(0,0,0,.75)}  .iconnews-loginicon{background-position:0 -87px;width:150px;height:130px}  .iconnews-loginsuccess{background-position:-164px -87px;width:133px;height:130px}  .iconnews-fb{background-position:-311px -88px;width:28px;height:27px}  .iconnews-gg{background-position:-311px -125px;width:28px;height:27px}  .social-login a{color:#333;width:40%;text-align:center;padding:10px;border-radius:4px;border:1px solid #dfdfdf;display:block;margin:10px auto}  .social-login a.fb:hover{background:#5786dd;color:#fff;border:1px solid #5786dd}  .social-login a:hover{background:#e13030;color:#fff;border:1px solid #e13030}  .social-login i{margin-right:7px}  .icon-title{position:relative}  .icon-title i{display:block;margin:0 auto}  .close-popup{position:absolute;right:10px;top:10px;border-radius:50%;border:1px solid #dfdfdf;padding:6px;cursor:pointer}  .close-popup i{margin:0 auto}  .iconnews-closegal{zoom:.8}  .phone-confirm{width:82%;display:block;margin:2% auto;overflow:hidden}  .profile{width:80%;margin:0 auto}  .profile input{display:block;margin:0 auto;width:80%;padding:11px 1%;border:1px solid #dfdfdf;border-radius:4px;color:#333}  .profile .phone-confirm input{width:57%;float:left}  .profile .phone-confirm a{width:37%;float:right;margin-left:2%;border-radius:4px;border:1px solid #288ad6;color:#288ad6;text-align:center;padding:11px 0}  .profile .phone-confirm a:hover{color:#fff;background:#288ad6}  .err-txt{display:none;color:#d0021b;text-align:center;margin:10px 0}  .err-txt label{color:#d0021b}  .btn-submit{display:block;margin:10px auto 0;width:78%;text-align:center;padding:10px;border-radius:4px;background:#288ad6;color:#fff;border:1px solid #288ad6}  .btn-submit.disable{background:#dfdfdf;border:1px solid #dfdfdf}  .btn-submit.emp{background:#fff;color:#288ad6;border:1px solid #288ad6}  .success .btn-submit.emp{width:45%}  .invalid{border:1px solid #d0021b !important}  .resend-otp{display:none;text-align:center;font-size:12px;margin:10px 0}  .resend-otp a{color:#288ad6}  .resend-otp p{color:#999}  .loginwith{display:none;overflow:visible;position:absolute;top:60px;right:0;z-index:9;padding:10px;background:#fff;box-shadow:0 1px 10px 0 rgba(0,0,0,.2)}  .loginwith a{display:block;color:#333;width:165px;height:auto}  .loginwith a{padding-bottom:8px;border-bottom:1px solid #f1f1f1}  .loginwith a:first-child{margin-bottom:8px}  .loginwith a:last-child{padding-top:8px;border-bottom:none}  .loginwith:before,.loginwith:after{bottom:100%;right:17%;content:"";height:0;width:0;position:absolute;border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:10px solid #ddd}  .loginwith:after{border-width:9px;border-bottom-color:#fff;margin-right:1px}  .loginwith a:hover{color:#288ad6}  a.group{display:block;margin:0 auto 10px;width:92%;overflow:hidden;color:#333;cursor:unset}  a.group>p{margin:0 26px 5px}  a.group.button{width:90%;padding:10px 1%;border:1px solid #dfdfdf;border-radius:4px}  .both{width:82%;margin:0 auto;overflow:hidden}  .both a{width:44%;float:left;padding:10px 2%}  .both a:last-child{margin-left:2%;float:right}  .profile.aut>input{margin-bottom:10px}  .input-nam{border-radius:3px;background:#fff;border:1px solid #ddd;display:block;width:calc(90% - 2px);margin:0 auto;text-align:center;height:34px;overflow:hidden;position:relative}  .input-nam input{width:98% !important;text-align:left;margin-top:0;height:29%;border:1px solid #fff !important;padding-left:6px}  .input-nam span{padding:1px 0;color:#ddd;float:left;margin-top:10px;width:15px;text-align:center}  .input-nam input.nam{width:12% !important}  .iconnews-lichv2{background-position:-87px -67px;width:16px;height:16px}  .input-nam>i{position:absolute;top:6px;right:7px;cursor:pointer;zoom:1.2}  .tutor{display:none;overflow:hidden;margin-bottom:10px}  .tutor input{border:0;background:#e6f7ff;margin-bottom:10px}  .tutor p>span{font-size:11px;color:#999}  .tutor>p{width:82%;margin:0 auto}  .tutor.show{display:block}  .iconnews-doneicon{background-position:-161px -94px;width:130px;height:108px}  .iconnews-post{background-position:-319px -207px;width:13px;height:13px;margin-right:10px}  .iconnews-profile{background-position:-353px -92px;width:12px;height:13px;margin-right:10px}  .iconnews-logout{background-position:-371px -92px;width:13px;height:13px;margin-right:10px}  .avaUserUp{text-align:center;margin-bottom:10px}  .avaUserUp a{overflow:hidden;position:relative}  .avaUserUp img{width:80px;height:80px;color:#666;border-radius:45px;background:#4da0b0;background:-webkit-linear-gradient(to left,#4da0b0,#d39d38);background:linear-gradient(to left,#4da0b0,#d39d38);object-fit:cover}  .avaUserUp .takepic,.avt .takepic{cursor:unset}  .avaUserUp .btnImgUpload,.avt .btnImgUpload{cursor:pointer}  .iconnews-cam{background-position:-225px 0;width:15px;height:12px;z-index:2;position:absolute;left:0;right:0;bottom:12px;margin:0 auto}  span.camera{position:absolute;bottom:3px;left:0;right:0;margin:0 auto;background:#fff;opacity:.5;width:96%;height:30px}  span.camera::after,span.camera::before{width:40px;background:#333;height:37px;position:absolute;content:'';left:-1px;bottom:0;z-index:1;border-bottom-left-radius:100%}  span.camera::before{right:2px;left:unset;border-bottom-right-radius:100%;border-bottom-left-radius:unset}  .avaUserUp a:hover span.camera{opacity:.9}  .iconnews-camera{background-position:-203px -61px;width:15px;height:13px;z-index:2;position:absolute;left:0;right:0;bottom:12px;margin:0 auto}  .iconnews-cam{background-position:-225px 0;width:15px;height:12px;z-index:2;position:absolute;left:0;right:0;bottom:12px;margin:0 auto}  .iconnews-fav{background-position:-317px -179px;width:16px;height:22px;margin-right:10px}  .favorite.active{color:#ffc107 !important}  .active .iconnews-fav{background-position:-317px -156px;width:16px;height:22px}  .userdetail a.favorite{display:inline-block;color:#333}  .userdetail a.un-pointer{cursor:default;color:#333}  #social input:focus,#profileBox input:focus{border:1px solid #999}  #social .lst-follow{height:200px;margin-bottom:26px;overflow:hidden;overflow-y:scroll}  #social .lst-follow li{width:auto;display:inline-block;margin:10px 0 5px 1%}  #social .lst-follow li a{color:#288ad6;background:#fff;border:1px solid #288ad6;padding:5px 10px;border-radius:4px;display:block}  #social .lst-follow li a.active{color:#fff;background:#288ad6}  #social .choose-topic{width:85%;margin:0 auto}  #social .choose-topic .title-post{color:#666;padding:10px 6px}  #ngay-cap{width:calc(44% - 2px);float:left;margin-left:5.2%}  #txtNoiCap{float:left;width:41%;padding:8px 1%;margin-left:2%}  @-webkit-keyframes flip-scale-down-ver{0%{-webkit-transform:scale(1) rotateY(0);transform:scale(1) rotateY(0)}50%{-webkit-transform:scale(.4) rotateY(-90deg);transform:scale(.4) rotateY(-90deg)}100%{-webkit-transform:scale(1) rotateY(-180deg);transform:scale(1) rotateY(-180deg)}}  @keyframes flip-scale-down-ver{0%{-webkit-transform:scale(1) rotateY(0);transform:scale(1) rotateY(0)}50%{-webkit-transform:scale(.4) rotateY(-90deg);transform:scale(.4) rotateY(-90deg)}100%{-webkit-transform:scale(1) rotateY(-180deg);transform:scale(1) rotateY(-180deg)}}  .rotating{-webkit-animation:flip-scale-down-ver 1s linear infinite both;animation:flip-scale-down-ver 1s linear infinite both}  .active-first{position:absolute;background:#fff;height:40px;display:flex;align-items:center;justify-content:center;width:90%}  .active-first p{text-align:left;width:100%;left:1%;position:relative;font-size:inherit;color:#666}  #social .active-first{left:3px;height:32px}  .iconnews-notify{background-position:-363px -58px;width:14px;height:17px;zoom:1.5;cursor:pointer}  .notify-class{position:relative;overflow:visible;float:right;margin:23px 12px;cursor:pointer}  .notify-class>a>span{position:absolute;top:-10px;left:14px;padding:2px;background:#f00;color:#fff;border-radius:3px}  .fade-box{width:315px;background:#fff;position:absolute;top:36px;overflow:visible;padding:10px;right:-50px;z-index:10000;border-radius:5px;transition:.3s;-webkit-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;-webkit-box-shadow:0 0 40px rgba(82,85,90,.2);box-shadow:0 0 40px rgba(82,85,90,.2);display:none}  .notify-class .fade-box::before{content:'';position:absolute;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:8px solid #fff;bottom:100%;-webkit-box-sizing:border-box;box-sizing:border-box;right:53px}  .fade-box .lst-topic{display:block;width:100%}  .fade-box .lst-topic li{margin-bottom:5px}  .fade-box .lst-topic li a{display:block;overflow:hidden;padding:5px}  .fade-box .lst-topic li a:hover{background:#f1f1f1;border-radius:3px}  .fade-box .lst-topic li a>span{color:#000;float:left;width:70%}  .fade-box .lst-topic li a>img{color:#000;width:25%;height:auto}@media screen and (max-width:1024px){.box-container{width:60%}.user-login{max-width:190px}}  div.news-notify{height:45px;background:#eee;line-height:45px;padding-left:12px;padding-right:16px}  div.news-notify p{float:left}  div.news-notify a{float:right;color:#288ad6}  .fade-box{padding:0}  .fade-box .lst-topic li{border-bottom:1px solid #f0f0f0}  .lst-notify{padding:10px}  .notify-class .fade-box .lst-notify a.viewmore-notify{display:block;color:#288ad6;text-align:center;font-size:14px;margin-top:10px}  .notify-class .fade-box .lst-notify a.viewmore-notify:after{content:'';width:0;right:0;border-top:6px solid #288ad6;border-left:6px solid transparent;border-right:6px solid transparent;display:inline-block;vertical-align:middle;margin:-2px 0 0 3px}  .fade-box .lst-topic li a>span{width:75%;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}  .fade-box .lst-topic li a>span>b{color:#288ad6}  .fade-box .lst-topic li a>span.timepostNotify{color:#666;font-size:12px}  .fade-box .lst-topic li.no-notify{border:0;text-align:center}  .fade-box.allnotify{display:block;position:relative;z-index:unset;top:0;right:0;width:600px;margin-left:auto;margin-right:auto;margin-bottom:10px}  .fade-box.allnotify .lst-notify ul.lst-topic.lst-cmtnews span{font-size:16px;line-height:30px}  .fade-box.allnotify .lst-notify ul.lst-topic.lst-cmtnews span.timepostNotify{font-size:13px;line-height:30px}  .fade-box.allnotify .news-notify p{font-weight:bold}  .fade-box.allnotify .lst-notify a.viewmore-notify{display:block;color:#288ad6;text-align:center;font-size:14px;margin-top:10px}  .fade-box.allnotify .lst-notify a.viewmore-notify:after{content:'';width:0;right:0;border-top:6px solid #288ad6;border-left:6px solid transparent;border-right:6px solid transparent;display:inline-block;vertical-align:middle;margin:-2px 0 0 3px}  .fade-box.allnotify .lst-topic li a>span>b{color:#288ad6}  .fade-box .lst-topic li.no-notify img.img-noneNotify{margin-left:auto;margin-right:auto;display:block}
+        .datepicker-container{background-color:#fff;direction:ltr;font-size:12px;left:0;line-height:30px;position:fixed;-webkit-tap-highlight-color:transparent;top:0;-ms-touch-action:none;touch-action:none;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:210px;z-index:-1}.datepicker-container::before,.datepicker-container::after{border:5px solid transparent;content:" ";display:block;height:0;position:absolute;width:0}.datepicker-dropdown{border:1px solid #ccc;-webkit-box-shadow:0 3px 6px #ccc;box-shadow:0 3px 6px #ccc;-webkit-box-sizing:content-box;box-sizing:content-box;position:absolute;z-index:1}.datepicker-inline{position:static}.datepicker-top-left,.datepicker-top-right{border-top-color:#39f}.datepicker-top-left::before,.datepicker-top-left::after,.datepicker-top-right::before,.datepicker-top-right::after{border-top:0;left:10px;top:-5px}.datepicker-top-left::before,.datepicker-top-right::before{border-bottom-color:#39f}.datepicker-top-left::after,.datepicker-top-right::after{border-bottom-color:#fff;top:-4px}.datepicker-bottom-left,.datepicker-bottom-right{border-bottom-color:#39f}.datepicker-bottom-left::before,.datepicker-bottom-left::after,.datepicker-bottom-right::before,.datepicker-bottom-right::after{border-bottom:0;bottom:-5px;left:10px}.datepicker-bottom-left::before,.datepicker-bottom-right::before{border-top-color:#39f}.datepicker-bottom-left::after,.datepicker-bottom-right::after{border-top-color:#fff;bottom:-4px}.datepicker-top-right::before,.datepicker-top-right::after,.datepicker-bottom-right::before,.datepicker-bottom-right::after{left:auto;right:10px}.datepicker-panel>ul{margin:0;padding:0;width:102%}.datepicker-panel>ul::before,.datepicker-panel>ul::after{content:" ";display:table}.datepicker-panel>ul::after{clear:both}.datepicker-panel>ul>li{background-color:#fff;cursor:pointer;float:left;height:30px;list-style:none;margin:0;padding:0;text-align:center;width:30px}.datepicker-panel>ul>li:hover{background-color:#e5f2ff}.datepicker-panel>ul>li.muted,.datepicker-panel>ul>li.muted:hover{color:#999}.datepicker-panel>ul>li.highlighted{background-color:#e5f2ff}.datepicker-panel>ul>li.highlighted:hover{background-color:#cce5ff}.datepicker-panel>ul>li.picked,.datepicker-panel>ul>li.picked:hover{color:#39f}.datepicker-panel>ul>li.disabled,.datepicker-panel>ul>li.disabled:hover{background-color:#fff;color:#ccc;cursor:default}.datepicker-panel>ul>li.disabled.highlighted,.datepicker-panel>ul>li.disabled:hover.highlighted{background-color:#e5f2ff}.datepicker-panel>ul>li[data-view="years prev"],.datepicker-panel>ul>li[data-view="year prev"],.datepicker-panel>ul>li[data-view="month prev"],.datepicker-panel>ul>li[data-view="years next"],.datepicker-panel>ul>li[data-view="year next"],.datepicker-panel>ul>li[data-view="month next"],.datepicker-panel>ul>li[data-view="next"]{font-size:18px}.datepicker-panel>ul>li[data-view="years current"],.datepicker-panel>ul>li[data-view="year current"],.datepicker-panel>ul>li[data-view="month current"]{width:150px}.datepicker-panel>ul[data-view="years"]>li,.datepicker-panel>ul[data-view="months"]>li{height:52.5px;line-height:52.5px;width:52.5px}.datepicker-panel>ul[data-view="week"]>li,.datepicker-panel>ul[data-view="week"]>li:hover{background-color:#fff;cursor:default}.datepicker-hide{display:none}
+        /* 03:26:01 11/11/2019 */.titlehome{display:block;overflow:hidden;line-height:26px;font-size:18px;color:#888;text-transform:uppercase;padding:10px 0 6px;font-family:'Roboto Condensed',sans-serif;font-weight:600}.titlecate{display:block;overflow:hidden;font-size:18px;color:#333;text-transform:uppercase;padding:10px 10px 0 10px;font-family:'Roboto Condensed',sans-serif;font-weight:600}.galleyYT{display:none;position:fixed;z-index:1;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:#000;background-color:rgba(0,0,0,.4)}.galleyYT .videoYT{background-color:#fefefe;margin:15% auto;padding:20px;border:1px solid #888;width:50%}.close{color:#aaa;float:right;font-size:28px;font-weight:bold}.close:hover,.close:focus{color:#000;text-decoration:none;cursor:pointer}.leftcate{float:left;overflow:hidden;width:65.834%}.leftcate .videoprod{position:relative;width:100%;margin-bottom:5px}.leftcate .videoprod iframe{width:100%;height:444px}.rightcate{float:right;overflow:visible;width:31.667%}.rightcate .rcm{overflow:hidden;margin-bottom:10px}.rightcate .rcm .trcm{clear:both;overflow:hidden}.rightcate .rcm .trcm h3{color:#888;display:block;float:left}.rightcate .rcm .trcm a{display:block;float:right;color:#288ad6;line-height:42px}.rightcate .rcm .trcm a span{font-size:17px}.rightcate .rcm ul{border-top:1px solid #eee;overflow:hidden}.rightcate .rcm ul li{border-bottom:1px solid #eee;overflow:hidden;padding:7px 0}.rightcate .rcm ul li:last-child{border:none}.rightcate .rcm li .l{float:left;color:#333;max-width:290px}.rightcate .rcm li .l::before{content:"•";color:#b7b7b7;display:inline-block;vertical-align:middle;font-size:15px;margin-right:6px;float:left;height:40px}.rightcate .rcm li .l .lct{color:#999}.rightcate .rcm li .r{float:right;color:#999}.rightcate .rcm li .r .tm{color:#333}.newslist{display:block;overflow:hidden}.newslist li{display:block;overflow:hidden;border-bottom:1px solid #eee;padding:15px 0;position:relative}.newslist li:last-child{border-bottom:0}.newslist li a{display:block;overflow:hidden;position:relative}.newslist li a.linkproduct{display:inline-block}.newslist li img{float:left;width:100%;height:200px}.newslist li h3{display:block;overflow:hidden;line-height:28px;font-size:22px;font-weight:600}.newslist li a:visited h3{color:#999}.newslist li:hover h3{color:#288ad6}.newslist li figure{display:block;overflow:hidden;font-size:14px;color:#333;line-height:22px;padding:10px 0}.newslist li.big h3{font-weight:bold;padding-top:10px}.newslist li .timepost{display:block;overflow:hidden;font-size:14px;color:#999}.newslist li .timepost .namecate:before{content:'•';display:inline-block;color:#999;padding:0 10px}.newslist li .timepost .evil{color:#288ad6}.newslist li .timepost .evil:before{content:'•';display:inline-block;color:#999;padding:0 10px}.newslist li label{display:inline;overflow:hidden;border-radius:2px;font-size:14px;text-transform:uppercase;color:#fff;padding:2px 6px 0;height:20px;vertical-align:middle;font-family:'Roboto Condensed',sans-serif}.newslist li label.hot{color:#a87500;background:#fbd020}.newslist li label.community{background:#0ca3ef;display:block;width:100px;text-align:center}.newslist li .morecom{display:inline-block;font-size:14px;color:#f89406;font-weight:300;white-space:nowrap;height:16px;line-height:1;position:relative;top:-1px}.newslist li .lesscom{display:inline-block;font-size:14px;color:#999;white-space:nowrap;font-weight:300;height:16px;line-height:1;position:relative;top:-1px}.newslist li .tempvideo{float:left;position:relative;width:250px;height:140px;margin-right:15px;margin-bottom:5px;overflow:hidden}.newslist li .tempvideo img{display:block;width:100%;height:100%}.newslist li .thumvideo{background:#222;padding:2px 5px;font-size:14px;color:#fff;position:absolute;left:0;bottom:0}.latest{display:block;overflow:hidden;border-bottom:1px solid #eee;padding-bottom:5px;margin-top:-10px}.latest li{overflow:hidden;float:left;width:32%;padding:0}.latest li .tempvideo{float:none;display:block;position:relative;width:100%;height:290px;margin-bottom:5px;overflow:hidden}.latest li img{float:none;display:block;width:100%;margin:0 auto 10px}.latest li h3{font-size:16px;line-height:1.3em;font-weight:300;margin-bottom:0}.latest li a{padding:10px 0}.latest li a:visited h3{color:#999}.latest li a:hover h3{color:#288ad6}.latest li:first-child{overflow:hidden;width:65.19%;margin-right:15px;border-bottom:0}.latest li:first-child img{display:block;width:100%;max-height:290px;height:auto;margin-bottom:10px}.latest li:first-child h3{font-size:24px;line-height:32px;font-weight:600}.latest li:nth-child(2) h3{font-size:20px;line-height:1.3em;font-weight:600}.latest li:nth-child(2) .tempvideo{height:140px}.latest li:last-child{border-bottom:0}.latest li .lesscom{top:2px;font-size:13px}.commuhot{display:block;overflow:visible;padding:10px;margin-bottom:10px;box-shadow:0 1px 3px 0 rgba(0,0,0,.11);border:1px solid #d9d9d9;border-radius:2px;position:relative}.commuhot:after,.commuhot:before{bottom:100%;left:90%;border:solid transparent;content:" ";height:0;width:0;position:absolute}.commuhot:after{border-bottom-color:#fff;border-width:10px;margin-left:-10px}.commuhot:before{border-bottom-color:#d9d9d9;border-width:11px;margin-left:-11px}.commuhot a{display:block;overflow:hidden}.commuhot .avatar{float:left;width:20px;height:20px;margin-top:6px}.commuhot div{display:block;overflow:hidden;font-size:14px;color:#333;line-height:20px}.commuhot div span{color:#999}.commuhot ul{display:block;overflow:hidden;margin:10px 0 10px 0}.commuhot li{float:left;width:46px;height:46px;border:2px solid #dfdfdf;background:#fff;padding:2px;margin-right:10px;position:relative}.commuhot li img{display:block;width:100%;height:100%}.commuhot li span{position:absolute;top:0;right:0;left:0;bottom:0;background:rgba(0,0,0,.59);font-size:15px;color:#fff;text-align:center;padding:15px 0}.commuhot .infoart{display:block;overflow:hidden;font-size:12px;color:#999}.commuhot .infoart span{padding-right:10px}.commuhot .infoart span i{margin-right:3px}.commuhot .infoart span:before{content:'•';display:inline-block;color:#999;padding:0 10px 0 0;vertical-align:bottom}.commuhot .infoart span:first-child:before{content:'';padding:0}.summarycomment{display:block;overflow:hidden;border-top:1px solid #eee;margin-bottom:10px}.summarycomment a{display:block;overflow:hidden;padding:6px 0}.summarycomment div{float:left;margin:4px 10px 0 0;padding:6px 10px;background:#f4f4f4;font-size:20px;color:#cbcbcb;font-weight:600}.summarycomment a h3{display:block;overflow:hidden;line-height:1.3em;font-size:14px;color:#333}.summarycomment a .morecom{display:inline-block;font-size:13px;color:#f89406;font-weight:300;white-space:nowrap;height:16px;line-height:1;position:relative;top:1px;margin-left:3px}.summaryevent{display:block;overflow:hidden;margin:-10px 0 10px}.summaryevent li{display:block;overflow:hidden;border-top:1px solid #eee}.summaryevent li a{display:block;overflow:hidden;padding:10px 0}.summaryevent li img{display:block;width:100%;max-height:315px;height:auto;margin-bottom:10px}.summaryevent li h3{display:block;overflow:hidden;font-size:15px;color:#333;line-height:18px;margin-bottom:5px}.summaryevent li:first-child{border-top:0}.summaryevent li:first-child h3{font-size:18px;font-weight:600;line-height:25px}.summaryevent li .ddevent{display:block;overflow:hidden;font-size:12px;color:#999}.summaryevent li:first-child .ddevent{font-size:14px;color:#666}.summaryevent li .calen{float:left;overflow:hidden;width:50px;margin:-2px 10px 0 0}.summaryevent li .calen strong{display:block;overflow:hidden;text-align:center;padding:10px 0 12px;border:1px solid #e6e6e6;border-top:0;border-radius:0 0 4px 4px;margin-top:-2px;color:#aaa;font-size:14px}.rates li h3{font-weight:600;padding-top:10px}.totaltips{display:block;overflow:hidden;margin:0 0 10px;border-top:1px solid #eee}.totaltips strong{display:block;overflow:hidden;font-size:16px;color:#777;text-transform:uppercase}.totaltips a{padding:15px 10px 0 0;font-size:15px;color:#288ad6;display:inline-block}.totaltips a.game{display:inline-block;position:relative;color:#000;padding:6px 16px;margin:15px 10px 0 0;font-size:16px;background:#f1f1f1;border:1px solid #f1f1f1;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}.totaltips .icongame-android{background-position:-155px 0;width:15px;height:20px}.totaltips .icongame-ios{background-position:-175px 0;width:15px;height:20px}.totaltips .icongame-winphone{background-position:-195px 0;width:15px;height:17px}.iconnews-comorg{background-position:-100px -20px;width:11px;height:10px;margin:-4px 1px 0 0;margin-right:3px}.iconnews-comcya{background-position:-85px -20px;width:11px;height:10px;margin:-4px 1px 0 0;margin-right:3px}.iconnews-videosmall{background-position:-117px -20px;width:8px;height:9px;vertical-align:baseline;margin-right:3px}.iconnews-like{background-position:-35px -20px;width:10px;height:12px;vertical-align:text-top}.iconnews-comtip{background-position:-50px -20px;width:14px;height:12px}.iconnews-share{background-position:-70px -20px;width:12px;height:10px;vertical-align:initial}.iconnews-calendar{background-position:-65px -35px;width:50px;height:13px}.iconnews-dd{background-position:-130px -20px;width:8px;height:11px;margin-right:3px}.iconnews-searchcya{background-position:-125px 0;width:16px;height:16px;display:block;margin:12px auto}.iconnews-lich{background-position:-144px -60px;width:13px;height:15px;margin-right:5px}.iconnews-add{background-position:-124px -60px;width:12px;height:17px;margin-right:5px}.iconnews-larvideo{background-position:0 -35px;width:60px;height:40px;position:absolute;left:0;right:0;top:0;bottom:0;display:block;margin:auto;cursor:pointer}.iconnews-closegal{background-position:-146px 0;width:14px;height:14px;display:block;margin:13px auto}.linkproduct{display:block;overflow:hidden;line-height:26px;font-size:18px;color:#288ad6;text-transform:uppercase;padding:10px 0 6px;font-family:'Roboto Condensed',sans-serif;font-weight:600}.newsproduct{display:block;overflow:hidden;border-top:1px solid #eee}.newsproduct li{display:block;overflow:hidden;padding:10px 0}.newsproduct li a{display:block;overflow:hidden}.newsproduct li img{float:left;width:70px;height:70px;margin-right:10px}.newsproduct li h3{display:block;overflow:hidden;font-size:16px;color:#333}.newsproduct li p{display:block;overflow:hidden;color:#666;font-size:14px;line-height:32px}.newsproduct li span{display:block;overflow:hidden;color:#333;line-height:32px}.newsproduct li label{display:block;overflow:hidden;color:#288ad6;margin-bottom:10px}.newspromotion{display:block;overflow:hidden}.newspromotion li{float:left;display:block;overflow:hidden;width:48%;margin-bottom:2%}.newspromotion li a{display:block;overflow:hidden;padding:10px 0}.newspromotion li h3{display:block;overflow:hidden;line-height:1.3em;font-size:14px;color:#333}.newspromotion li img{display:block;width:100%;height:auto;max-height:125px;margin-bottom:10px}.newspromotion li:first-child{float:none;width:100%;border-bottom:1px solid #eee}.newspromotion li:first-child img{width:100%;height:auto;max-height:215px}.newspromotion li:first-child h3{font-size:18px;font-weight:600}.newspromotion li:nth-child(3),.newspromotion li:nth-child(5){float:right}.newspromotion li:nth-child(2),.newspromotion li:nth-child(4){clear:both}.searchmeo{display:block;border:1px solid #d9d9d9;border-radius:4px;height:40px;margin:15px 0 10px;position:relative}.searchmeo input{display:block;width:93%;border:0;padding:10px;height:20px;font-size:14px;border-radius:4px}.searchmeo button{position:absolute;top:0;right:0;background:#fff;border:0;width:40px;height:40px;border-radius:4px}.infopage{display:block;overflow:hidden;padding:10px 0;margin-bottom:20px;border-bottom:1px solid #eee}.infopage h1{display:inline-block;overflow:hidden;line-height:1.3em;font-size:18px;color:#333;font-family:Roboto Condensed,sans-serif;font-weight:600;text-transform:uppercase;vertical-align:middle;padding-right:10px}.infopage span{display:inline-block;font-size:14px;color:#999;vertical-align:middle;padding:0 10px;border-left:1px solid #ddd}.viewmore{display:block;overflow:hidden;padding:10px 0;margin:20px 0;font-size:14px;color:#288ad6;border:1px solid #eee;border-radius:4px;text-align:center}.viewmore b{display:inline-block;vertical-align:middle;content:'';width:0;height:0;border-top:5px solid #288ad6;border-left:5px solid transparent;border-right:5px solid transparent;position:relative;top:-1px}.all b{transform:rotate(-90deg);margin-left:3px}.productcell{float:left;overflow:hidden;width:49%;border-top:1px solid #eee;border-left:1px solid #eee;margin-bottom:20px}.productcell:nth-child(2){float:right}.productcell a{float:left;overflow:hidden;width:33.3%;margin-right:-1px;height:260px;border-bottom:1px solid #eee;border-right:1px solid #eee;font-family:'Roboto Condensed',sans-serif}.productcell a h3{display:block;overflow:hidden;font-size:18px;color:#333;padding:5px;text-align:center}.productcell a img{display:block;width:150px;height:150px;margin:15px auto}.productcell a span{display:block;overflow:hidden;padding:0 5px 5px;text-align:center;font-size:14px;color:#666}.productcell a label{display:block;overflow:hidden;padding:0 5px 5px;text-align:center;font-size:14px;color:#288ad6}.productcell a:hover h3{color:#4a90e2}.productcell div{display:block;overflow:hidden;background:#f5f5f5;border-right:1px solid #eee;border-bottom:1px solid #eee}.productcell div h2{display:inline-block;padding:7px 5px 2px;line-height:1.3em;font-family:'Roboto Condensed',sans-serif;font-size:18px;color:#333;font-weight:600;text-transform:uppercase}.productcell div a{float:right;padding:9px 10px 5px;font-size:14px;color:#288ad6;width:auto;height:auto;border:0}.productcell div a:hover{color:#333}.cellright{float:right}.prodlist{float:none;display:block;width:100%;max-width:1199px}.prodlist a{width:20%;margin-right:-1px}.viewmoreprod{display:block;overflow:hidden;padding:10px 0;text-align:center;font-size:14px;color:#288ad6;width:240px;border-radius:4px;border:1px solid #eee;display:block;margin:0 auto 20px}.viewmoreprod b{display:inline-block;content:'';width:0;height:0;border-top:6px solid #288ad6;border-left:6px solid transparent;border-right:6px solid transparent;position:relative;top:-2px;margin-left:3px}.viewmoreprod:hover{color:#333}.viewmoreprod:hover b{border-top-color:#999}.colinfoprod{display:block;overflow:hidden;border:1px solid #eee;padding:15px}.infoprod{display:block;overflow:hidden;border-bottom:1px solid #eee;padding-bottom:15px}.infoprod h3,.infoprod h2{display:block;overflow:hidden;line-height:1.3em;font-size:18px;font-family:'Roboto Condensed',sans-serif;color:#333;font-weight:600}.infoprod strong{display:block;overflow:hidden;padding:10px 0;font-size:18px;color:#d0021b;font-family:'Roboto Condensed',sans-serif;font-weight:300}.infoprod img{float:left;width:145px;height:145px;margin-right:10px}.infoprod span{display:block;overflow:hidden;font-size:14px;color:#333;line-height:24px}.infoprod a{display:block;overflow:hidden;font-size:14px;color:#288ad6;line-height:22px}.infoprod figure{font-size:13px;line-height:20px}.picvideo{display:block;overflow:hidden}.picvideo h3{display:block;overflow:hidden;padding:15px 0;line-height:1.3em;font-size:18px;font-family:'Roboto Condensed',sans-serif;color:#333;font-weight:600}.picvideo ul{display:block;overflow:hidden}.picvideo li{float:left;overflow:hidden;width:106px;margin-right:15px;position:relative}.picvideo li img{display:block;max-width:100%;max-height:100%}.picvideo li:first-child{float:none;display:block;width:100%;height:auto;max-height:185px;margin-bottom:14px}.picvideo li:nth-child(4){float:right;margin-right:0}.picvideo li span{position:absolute;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.45);padding:24px 0;height:16px;display:block;text-align:center;font-size:20px;color:#fff;font-family:'Roboto Condensed',sans-serif}.newsvideo{display:block;background-color:#000;padding:0 10px}.newsvideo:hover .galleyYT{display:block}.newsvideo a{color:#fff;overflow:hidden;line-height:26px;font-size:18px;text-transform:uppercase;padding:10px 0 6px;font-family:'Roboto Condensed',sans-serif;font-weight:600;display:inline-block}.newsvideo a.follow{background-color:#f00;display:inline-block;float:right;padding:0 5px;margin:10px 0 0;text-transform:none;border-radius:2px;font-size:11px}.newsvideo a.follow .btnYt{background:#fff;width:18px;height:12px;border-radius:2px;display:inline-block;vertical-align:middle;margin-right:5px;position:relative}.newsvideo a.follow .btnYt .icyt{width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid #f00;display:block;position:absolute;top:1px;left:50%;margin-left:-3px}.newsvideo a.follow span{font-size:14px;vertical-align:middle}.newsvideo #galleryYT:hover .owl-buttons{display:block}.newsvideo .owl-wrapper-outer .item{margin:0 15px}.newsvideo .owl-wrapper-outer .item .iconyt{background:url('https://cdn.tgdd.vn/tin-tuc/Content/desktop/images/newsdesktop@1x.png') no-repeat 0 -35px;width:60px;height:40px;cursor:pointer;top:50%;left:50%;position:absolute;margin:-21px 0 0 -30px}.newsvideo .owl-wrapper-outer .item span{color:#fff;font-size:14px}.newsvideo .owl-buttons{position:absolute;top:38%;height:0;width:100%;display:none}.newsvideo .owl-buttons div{font-size:46px !important;padding:0 !important;margin:0 !important;background:none !important}.newsvideo .owl-buttons .owl-prev{position:absolute;left:-25px;padding:12px 0 0;margin:0;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;background:rgba(0,0,0,.3);width:48px;height:40px;text-align:center;font-size:46px;color:#fff;font-family:-webkit-body}.newsvideo .owl-buttons .owl-next{position:absolute;right:-25px;padding:12px 0 0;margin:0;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;background:rgba(0,0,0,.3);width:48px;height:40px;text-align:center;font-size:46px;color:#fff;font-family:-webkit-body}.newsvideo .owl-wrapper-outer:hover .newsvideo .owl-buttons{display:block}.newsvideo iframe{width:100%;height:200px;padding:10px 0 6px}.newsvideo .fotorama img{width:100%;height:auto}@media screen and (max-width:1024px){.latest li:first-child{width:64.19%}.latest li h3{font-size:14px}.latest li:first-child h3{font-size:20px;line-height:26px;margin-bottom:5px}.latest li:nth-child(2) h3{font-size:18px;line-height:22px;height:44px}.latest li .tempvideo{height:238px}.latest li a{padding:6px 0}.latest li a:link{color:#f00}.latest li a:visited{color:#999}.commuhot li{width:39px;height:39px;margin-right:5px}.newslist li figure{height:42px}.newslist li h3{max-height:56px}.prodlist a{margin-right:-1.3px}.infoprod span,.infoprod a{font-size:13px}.picvideo li{width:90px;height:90px;margin-right:7px}}.iconyt-play{background-position:-459px -224px;width:18px;height:12px}[class^="iconyt-"],[class*="iconyt-"]{background-size:856px 313px;background-repeat:no-repeat;display:inline-block;vertical-align:middle}[class^="icongame-"],[class*="icongame-"]{background-image:url(https://s.tgdd.vn/game-ung-dung/Content/desktop/images/bg_gameapp1x.png);background-repeat:no-repeat;display:inline-block;height:30px;width:30px;line-height:30px;vertical-align:middle}
+        /* 03:26:01 11/11/2019 */.owl-carousel .owl-wrapper:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel{display:none;position:relative;width:100%;-ms-touch-action:pan-y}.owl-carousel .owl-wrapper{display:none;position:relative;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-wrapper-outer{overflow:hidden;position:relative;width:100%}.owl-carousel .owl-wrapper-outer.autoHeight{-webkit-transition:height 500ms ease-in-out;-moz-transition:height 500ms ease-in-out;-ms-transition:height 500ms ease-in-out;-o-transition:height 500ms ease-in-out;transition:height 500ms ease-in-out}.owl-carousel .owl-item{float:left}.owl-controls .owl-page,.owl-controls .owl-buttons div{cursor:pointer}.owl-controls{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.owl-carousel .owl-wrapper,.owl-carousel .owl-item{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-theme .owl-controls{margin-top:0;text-align:center}.owl-theme .owl-controls .owl-buttons div{color:#fff;display:inline-block;zoom:1;*display:inline;margin:5px;padding:3px 10px;font-size:12px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;background:#869791;filter:Alpha(Opacity=50);opacity:.5}.owl-theme .owl-controls.clickable .owl-buttons div:hover{filter:Alpha(Opacity=100);opacity:1;text-decoration:none}.owl-theme .owl-controls .owl-page{display:inline-block;zoom:1;*display:inline}.owl-theme .owl-controls .owl-page span{display:block;width:4px;height:4px;margin:0 5px;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;background:#d8d8d8}.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span{background:#ef8a32}.owl-theme .owl-controls .owl-page span.owl-numbers{height:auto;width:auto;color:#fff;padding:2px 10px;font-size:12px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}
+    </style>
+</head>
+<body>
+<section>
+
+
+
+
+
+    <div class="home-menu">
+        <section>
+            <ul class="menu">
+                <h3 style="font-size: 30px;color: orangered;padding-left: 50%">Tin tức về sản phẩm</h3>
+            </ul>
+        </section>
+        <div class="clr"></div>
+    </div>
+
+    <aside class="leftcate">
+        <ul class="newslist latest">
+            <li>
+                <a href="#">
+                    <div class="tempvideo">
+                        <img width="100" height="70" src="https://cdn.tgdd.vn/Files/2019/11/13/1218277/macbook-1_1280x720-800-resize.jpg"/>
+                    </div>
+                    <h3>Apple sẽ ra mắt MacBook Pro 16 inch vào ngày mai, giá bán có thể khiến bạn bất ngờ
+                        <span class="lesscom"><i class="iconnews-comcya"></i>2</span>
+                    </h3>
+                    <figure>
+                        Theo báo cáo từ Bloomberg, Macbook Pro 16 inch đã được đồn đại từ lâu và nó sắp sửa được trình làng. Nhà phân tích Mark Gurman đến từ Bloomberg nói rằng, Apple có thể ra mắt mẫu laptop này vào ngày mai (14/11, theo giờ Việt Nam), và lên kệ ngay từ cuối tuần này. </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="tempvideo">
+                        <img width="100" height="70" src="https://cdn.tgdd.vn/Products/Images/44/210081/hp-15s-du0054tu-i3-7020u-4gb-1tb-win10-6zf60pa-15-600x600.jpg"/>
+                    </div>
+                    <h3>Laptop  HP 15s du0054TU là chiếc máy tính xách tay được ưa chuộng nhờ hiệu năng ổn định, giá thành rẻ, phù hợp với dân văn phòng và sinh viên.
+                        <span class="lesscom"><i class="iconnews-comcya"></i>3</span>
+                    </h3>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="linkimg">
+                    <h3>Laptop HP thiết kế đơn giản với màu bạc, vỏ nhựa, trọng lượng chỉ 1.74 kg nên người dùng thoải mái mang theo đi làm thường xuyên.
+
+                        <span class="lesscom"><i class="iconnews-comcya"></i>1</span> </h3>
+                </a>
+            </li>
+
+
+        </ul>
+
+        <ul class="newslist" id="mainlist">
+            <li data-id="1218725">
+                <a href="/tin-tuc/mac-pro-va-pro-display-xdr-se-bat-dau-ban-ra-vao-thang-12-1218725">
+                    <div class="tempvideo">
+                        <img width="100" height="70" data-original="https://cdn.tgdd.vn/Files/2019/11/14/1218725/apple-mac-pro-2019-19-2-1280x720_800x450-300x200.jpg" class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX6+vqsEtnpAAAACklEQVQI12NgAAAAAgAB4iG8MwAAAABJRU5ErkJggg=="/>
+                    </div>
+                    <h3> Apple x&#225;c nhận Mac Pro v&#224; Pro Display XDR sẽ bắt đầu b&#225;n ra v&#224;o th&#225;ng 12, gi&#225; từ 5.999 USD
+
+                    </h3>
+                    <figure>
+                        Mac Pro được Apple giới thiệu lần đầu vào tháng 6 với lời hứa sẽ xuất xưởng vào mùa thu năm nay. Tuy nhiên, sau nhiều lần trì hoãn thì cuối cùng...
+                    </figure>
+                    <div class="timepost">
+                        <span>11 ph&#250;t trước</span>
+
+                        <span class="namecate">Tin nhanh 24/7</span>
+                    </div>
+                </a>
+            </li>
+            <li data-id="1217858">
+                <a href="/#">
+                    <div class="tempvideo">
+                        <img width="100" height="70" data-original="https://cdn.tgdd.vn/Files/2019/11/11/1217858/youtube_800x450-300x200.jpg" class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX6+vqsEtnpAAAACklEQVQI12NgAAAAAgAB4iG8MwAAAABJRU5ErkJggg=="/>
+                    </div>
+                    <h3><label class="hot">Hot</label> Sự thật th&#244;ng tin Google c&#243; thể sẽ kho&#225; t&#224;i khoản người d&#249;ng cố t&#236;nh chặn quảng c&#225;o tr&#234;n YouTube
+                        <span class="lesscom">
+                        <i class="iconnews-comcya"></i>34                </span>
+
+                    </h3>
+                    <figure>
+                        Những thay đổi này sẽ bắt đầu có hiệu lực vào ngày 10/12/2019. Trong chính sách mới, có một điều khoản gây tranh cãi nhất là YouTube cấm người...
+                    </figure>
+                    <div class="timepost">
+                        <span>50 ph&#250;t trước</span>
+
+                        <span class="namecate">Tin nhanh 24/7</span>
+                    </div>
+                </a>
+            </li>
+            <li data-id="1218692">
+                <a href="/tin-tuc/can-canh-hinh-anh-tren-tay-thuc-te-moto-razr-1218692">
+                    <div class="tempvideo">
+                        <img width="100" height="70" data-original="https://cdn.tgdd.vn/Products/Images/44/212658/acer-aspire-a315-42-r8px-r3-3200u-8gb-256gb-win10-16-600x600.jpg" class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX6+vqsEtnpAAAACklEQVQI12NgAAAAAgAB4iG8MwAAAABJRU5ErkJggg=="/>
+                    </div>
+                    <h3> Laptop Acer Aspire A315 42 R8PX R3 3200U/8GB/256GB/Win10 (NX.HF9SV.00A)
+
+
+                        <span class="lesscom">
+                        <i class="iconnews-comcya"></i>1                </span>
+
+                    </h3>
+                    <figure>
+                        Với công nghệ AMD Ryzen 3 chiếc máy tính Acer Aspire A315 42 R8PX R3 của bạn có khả năng chơi game tương đối tốt và chạy mượt các tác vụ học tập - văn phòng.  </figure>
+                    <div class="timepost">
+                        <span>1 giờ trước</span>
+
+                        <span class="namecate">Tin nhanh 24/7</span>
+                    </div>
+                </a>
+            </li>
+
+
+
+        </ul>
+
+    </aside>
+    <aside class="rightcate">
+
+        <div class="banner">
+            <!--            <a aria-label='slide' href="https://www.thegioididong.com/images/44/106875/apple-macbook-air-mqd32sa-a-i5-5350u-4.jpg"></a>-->
+        </div>
+
+
+        <h3 class="titlehome">Chủ đề hot</h3>
+        <ul class="hot-lst">
+            <li>
+                <a href=#" target="_blank">
+                    Apple Macbook Air
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    Apple Macbook Pro
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    Dell
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    Lenovo
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    Asus
+                </a>
+            </li>
+
+            <li>
+                <a href="#" target="_blank">
+                    Cộng đồng đăng tin
+                </a>
+            </li>
+        </ul>
+
+
+
+        <h3 class="titlehome">Thảo luận nhiều</h3>
+        <div class="summarycomment">
+            <a href="#">
+                <div>1</div>
+                <h3>Apple tiếp tục cập nhật Hệ điều hành Mac Os n&#224;y, v&#224;o kiểm tra v&#224; tải xuống ngay!<span class="morecom"><i class="iconnews-comorg"></i>53</span></h3>
+            </a>
+            <a href="#">
+                <div>2</div>
+                <h3>Sự thật th&#244;ng tin Google c&#243; thể sẽ kho&#225; t&#224;i khoản người d&#249;ng cố t&#236;nh chặn quảng c&#225;o tr&#234;n YouTube<span class="morecom"><i class="iconnews-comorg"></i>34</span></h3>
+            </a>
+            <a href="#">
+                <div>3</div>
+                <h3>Apple bất ngờ ph&#225;t h&#224;nh phi&#234;n bản iOS 13.2.2, sửa lỗi đa nhiệm tr&#234;n iOS 13.2<span class="morecom"><i class="iconnews-comorg"></i>29</span></h3>
+            </a>
+            <a href="#">
+                <div>4</div>
+                <h3>Nokia 8.2 chỉ c&#243; 1 phi&#234;n bản duy nhất: D&#249;ng chip Snapdragon 735, hỗ trợ 5G<span class="morecom"><i class="iconnews-comorg"></i>16</span></h3>
+            </a>
+        </div>
+
+
+
+
+
+        <h3 class="titlehome">Sự kiện</h3>
+        <ul class="summaryevent">
+            <li>
+                <a href="#">
+                    <div class="calen">
+                        <i class="iconnews-calendar"></i>
+                        <strong>16/11</strong>
+                    </div>
+                    <h3>Ra mắt Macbook Pro 16 inch</h3>
+                    <span class="ddevent"><i class="iconnews-dd"></i>New York</span>
+                </a>
+            </li><li>
+            <a href="#">
+                <div class="calen">
+                    <i class="iconnews-calendar"></i>
+                    <strong>03/12</strong>
+                </div>
+                <h3>Ra mắt chip intel core i10</h3>
+                <span class="ddevent"><i class="iconnews-dd"></i>Maui, Hawaii</span>
+            </a>
+        </li><li>
+            <a href="#">
+                <div class="calen">
+                    <i class="iconnews-calendar"></i>
+                    <strong>01/01</strong>
+                </div>
+                <h3>Sự kiện ra mắt Macbook Pro</h3>
+                <span class="ddevent"><i class="iconnews-dd"></i>Trung T&#226;m Hội Nghị Quốc Gia Việt Nam</span>
+            </a>
+        </li></ul>
+
+        <div class="clr"></div>
+    </aside>
+
+</section>
+
+
+
+
+<script>
+    var query = {
+        ID: 1169,
+        Size: 10,
+        Index: 0
+    };
+</script>
+<script defer="defer" async="async" src="https://cdn.tgdd.vn/tin-tuc/Scripts/desktop/home.min.v201911110330.js"></script>
+<script type="text/javascript">
+    setTimeout(function () {
+        setTimeout(function () {
+            var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0017/3880.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+        }, 1);
+    }, 10000);
+</script>
+
+<script>
+    var rootUrl = '/tin-tuc';
+    var rooturl = '.thegioididong.com';
+</script>
+<!--#region GA-->
+<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://cdn.tgdd.vn/v2015/Scripts/analytics.js', 'ga');
+    ga('create', 'UA-918185-25', 'auto');
+</script>
+<script type="text/javascript">
+    window.onload = function () {
+        ga('send', 'pageview');
+        //<!-- #regionGoogle Tag Manager -->
+        setTimeout(
+            function () {
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({
+                        'gtm.start':
+                            new Date().getTime(), event: 'gtm.js'
+                    }); var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-WKQZL8');
+            }
+            , 3000);
+        //<!--#endregion -->
+    };
+</script>
+<!--#endregion-->
+
+
+<!--#region CrazyEgg -->
+
+<!--#endregion -->
+</body>
+</html>
+
+<!--kết thúc tin tức-->
+<footer class="footer ">
+    <div class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="footer-widget">
+                            <h3><span>Thông tin công ty</span></h3>
+                            <ul class="list-menu">
+                                <li><a href="index.html">Trang chủ</a></li>
+                                <li><a href="/gioi-thieu">Giới thiệu</a></li>
+                                <li><a href="product.html">Sản phẩm</a></li>
+                                <!--                                <li><a href="/tin-tuc">Tin tức</a></li>-->
+                                <li><a href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--                    <div class="col-xs-12 col-sm-6 col-md-3">-->
+                    <!--                        <div class="footer-widget">-->
+                    <!--                            <h3><span>Chính sách</span></h3>-->
+                    <!--                            <ul class="list-menu">-->
+                    <!--                                <li><a href="/">Giao hàng</a></li>-->
+                    <!--                                <li><a href="/gioi-thieu">Bảo hành</a></li>-->
+                    <!--                                <li><a href="/collections/all">Đổi trả hàng</a></li>-->
+                    <!--                                <li><a href="/tin-tuc">Tin tức</a></li>-->
+                    <!--                                <li><a href="/lien-he">Liên hệ</a></li>-->
+                    <!--                            </ul>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="footer-widget">
+                            <h3><span>Chính sách hỗ trợ khách hàng</span></h3>
+                            <ul class="list-menu">
+                                <li><a >Gọi mua hàng 1800.1060 (7:30 - 22:00)</a></li>
+                                <li><a>Gọi khiếu nại   1800.1062 (8:00 - 21:30)</a></li>
+                                <li><a>Gọi bảo hành   1800.1064 (8:00 - 21:00)</a></li>
+                                <li><a>Kỹ thuật           1800.1763 (7:30 - 22:00)</a></li>
+                                <!--                                <li><a href="/lien-he">Liên hệ</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="footer-widget">
+                            <h3><span>Liên hệ với chúng tôi</span></h3>
+                            <ul class="list-menu">
+                                <li><a ><b>Địa chỉ: </b>kp6, P.Linh Trung, Q.Thủ Đưc, HCM</a></li>
+                                <li><a ><b>Sđt: </b> 0964024229</a></li>
+                                <li><a ><b>Email: </b>TeamNLH@gmail.com</a></li>
+                                <!--                                <li><a href="/tin-tuc">Tin tức</a></li>-->
+                                <!--                                <li><a href="/lien-he">Liên hệ</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bottom-footer">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="footer-widget footer-payment">
+                            <h3><span>Phương thức thanh toán</span></h3>
+                            <ul class="list-menu clearfix">
+                                <li class="item">
+                                    <img src="https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/payment_1.png?1559638811340" alt="Phương thức thanh toán" />
+                                </li>
+                                <li class="item">
+                                    <img src="https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/payment_2.png?1559638811340" alt="Phương thức thanh toán" />
+                                </li>
+                                <li class="item">
+                                    <img src="https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/payment_3.png?1559638811340" alt="Phương thức thanh toán" />
+                                </li>
+                                <li class="item">
+                                    <img src="https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/payment_4.png?1559638811340" alt="Phương thức thanh toán" />
+                                </li>
+                                <li class="item">
+                                    <img src="https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/payment_5.png?1559638811340" alt="Phương thức thanh toán" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="footer-widget footer-social">
+                            <h3><span>Kết nối với chúng tôi</span></h3>
+                            <ul class="list-menu list-inline">
+                                <li class="twitter">
+                                    <a href="https://www.twitter.com/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve" width="15px" height="15px">
+                                       <g>
+                                          <path d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411    c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513    c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101    c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104    c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194    c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485    c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z" data-original="#010002" class="active-path" data-old_color="#010002" fill="#FFFFFF"/>
+                                       </g>
+                                    </svg>
+                                    </a>
+                                </li>
+                                <li class="facebook">
+                                    <a href="https://www.facebook.com/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 430.113 430.114" style="enable-background:new 0 0 430.113 430.114;" xml:space="preserve">
+                                       <path id="Facebook" d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805   c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354   c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+                                    </svg>
+                                    </a>
+                                </li>
+                                <li class="pinterest">
+                                    <a href="https://www.pinterest.com/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 310.05 310.05" style="enable-background:new 0 0 310.05 310.05;" xml:space="preserve" width="15px" height="15px">
+                                       <path id="XMLID_799_" d="M245.265,31.772C223.923,11.284,194.388,0,162.101,0c-49.32,0-79.654,20.217-96.416,37.176   c-20.658,20.9-32.504,48.651-32.504,76.139c0,34.513,14.436,61.003,38.611,70.858c1.623,0.665,3.256,1,4.857,1   c5.1,0,9.141-3.337,10.541-8.69c0.816-3.071,2.707-10.647,3.529-13.936c1.76-6.495,0.338-9.619-3.5-14.142   c-6.992-8.273-10.248-18.056-10.248-30.788c0-37.818,28.16-78.011,80.352-78.011c41.412,0,67.137,23.537,67.137,61.425   c0,23.909-5.15,46.051-14.504,62.35c-6.5,11.325-17.93,24.825-35.477,24.825c-7.588,0-14.404-3.117-18.705-8.551   c-4.063-5.137-5.402-11.773-3.768-18.689c1.846-7.814,4.363-15.965,6.799-23.845c4.443-14.392,8.643-27.985,8.643-38.83   c0-18.55-11.404-31.014-28.375-31.014c-21.568,0-38.465,21.906-38.465,49.871c0,13.715,3.645,23.973,5.295,27.912   c-2.717,11.512-18.865,79.953-21.928,92.859c-1.771,7.534-12.44,67.039,5.219,71.784c19.841,5.331,37.576-52.623,39.381-59.172   c1.463-5.326,6.582-25.465,9.719-37.845c9.578,9.226,25,15.463,40.006,15.463c28.289,0,53.73-12.73,71.637-35.843   c17.367-22.418,26.932-53.664,26.932-87.978C276.869,77.502,265.349,51.056,245.265,31.772z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+                                    </svg>
+                                    </a>
+                                </li>
+                                <li class="google">
+                                    <a href="https://www.google.com/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 491.858 491.858" style="enable-background:new 0 0 491.858 491.858;" xml:space="preserve" width="15px" height="15px" class="">
+                                       <path d="M377.472,224.957H201.319v58.718H308.79c-16.032,51.048-63.714,88.077-120.055,88.077     c-69.492,0-125.823-56.335-125.823-125.824c0-69.492,56.333-125.823,125.823-125.823c34.994,0,66.645,14.289,89.452,37.346     l42.622-46.328c-34.04-33.355-80.65-53.929-132.074-53.929C84.5,57.193,0,141.693,0,245.928s84.5,188.737,188.736,188.737     c91.307,0,171.248-64.844,188.737-150.989v-58.718L377.472,224.957L377.472,224.957z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+                                            <polygon points="491.858,224.857 455.827,224.857 455.827,188.826 424.941,188.826 424.941,224.857 388.91,224.857      388.91,255.74 424.941,255.74 424.941,291.772 455.827,291.772 455.827,255.74 491.858,255.74    " data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+                                    </svg>
+                                    </a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="https://www.instagram.com/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="15px" height="15px">
+                                            <path d="m75 512h362c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75zm-45-437c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45v362c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45zm0 0" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+                                            <path d="m256 391c74.4375 0 135-60.5625 135-135s-60.5625-135-135-135-135 60.5625-135 135 60.5625 135 135 135zm0-240c57.898438 0 105 47.101562 105 105s-47.101562 105-105 105-105-47.101562-105-105 47.101562-105 105-105zm0 0" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+                                            <path d="m406 151c24.8125 0 45-20.1875 45-45s-20.1875-45-45-45-45 20.1875-45 45 20.1875 45 45 45zm0-60c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="footer-widget footer-subcrible">
+                            <h3><span>Đăng ký nhận tin</span></h3>
+                            <p>Nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa.</p>
+                            <form action="//facebook.us7.list-manage.com/subscribe/post?u=97ba6d3ba28239250923925a8&id=4ef3a755a8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" value="" placeholder="Email của bạn" name="EMAIL" id="mail">
+                                    <span class="input-group-btn">
+                                 <button class="btn btn-default" name="subscribe" id="subscribe" type="submit">Đăng ký</button>
+                                 </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright clearfix">
+        <div class="container">
+            <div class="inner clearfix">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <span>Design by @ <span class="s480-f">|</span> <a href="http://hci2019group13.tk/">NLH</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="back-to-top"><i class="fa  fa-arrow-circle-up"></i></div>
+        </div>
+    </div>
+</footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js" type="text/javascript"></script>
+<div class="ajax-load">
+         <span class="loading-icon">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+               <rect x="0" y="10" width="4" height="10" fill="#333" opacity="0.2">
+                  <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.6s" repeatCount="indefinite" />
+                  <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
+                  <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
+               </rect>
+               <rect x="8" y="10" width="4" height="10" fill="#333"  opacity="0.2">
+                  <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+                  <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+                  <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+               </rect>
+               <rect x="16" y="10" width="4" height="10" fill="#333"  opacity="0.2">
+                  <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+                  <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+                  <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+               </rect>
+            </svg>
+         </span>
+</div>
+<div class="loading awe-popup">
+    <div class="overlay"></div>
+    <div class="loader" title="2">
+        <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+               <rect x="0" y="10" width="4" height="10" fill="#333" opacity="0.2">
+                  <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.6s" repeatCount="indefinite" />
+                   <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
+                   <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
+               </rect>
+            <rect x="8" y="10" width="4" height="10" fill="#333"  opacity="0.2">
+                  <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+                <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+                <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+               </rect>
+            <rect x="16" y="10" width="4" height="10" fill="#333"  opacity="0.2">
+                  <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+                <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+                <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+               </rect>
+            </svg>
+    </div>
+</div>
+<div class="addcart-popup product-popup awe-popup">
+    <div class="overlay no-background"></div>
+    <div class="content">
+        <div class="row row-noGutter">
+            <div class="col-xl-6 col-xs-12">
+                <div class="btn btn-full btn-primary a-left popup-title"><i class="fa fa-check"></i>Thêm vào giỏ hàng thành công
+                </div>
+                <a href="javascript:void(0)" class="close-window close-popup"><i class="fa fa-close"></i></a>
+                <div class="info clearfix">
+                    <div class="product-image margin-top-5"><img alt="popup" src="https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/logo.png?1559638811340" style="max-width:150px; height:auto"/></div>
+                    <div class="product-info">
+                        <p class="product-name"></p>
+                        <p class="quantity color-main"><span>Số lượng: </span></p>
+                        <p class="total-money color-main"><span>Tổng tiền: </span></p>
+                    </div>
+                    <div class="actions"><button class="btn  btn-primary  margin-top-5 btn-continue">Tiếp tục mua hàng</button><button class="btn btn-gray margin-top-5" onclick="window.location='/cart'">Kiểm tra giỏ hàng</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="error-popup awe-popup">
+    <div class="overlay no-background"></div>
+    <div class="popup-inner content">
+        <div class="error-message"></div>
+    </div>
+</div>
+<div id="popup-cart" class="modal fade" role="dialog">
+    <div id="popup-cart-desktop" class="clearfix">
+        <div class="title-popup-cart"><i class="ion ion-md-notifications-outline" aria-hidden="true"></i> Bạn đã thêm <span class="cart-popup-name"></span> vào giỏ hàng</div>
+        <div class="title-quantity-popup"><a href="giohang.html" title="Giỏ hàng của bạn">Giỏ hàng của bạn có <span class="cart-popup-count"></span> sản phẩm</a></div>
+        <div class="content-popup-cart clearfix">
+            <div class="thead-popup">
+                <div style="width: 55%;" class="text-left">Sản phẩm</div>
+                <div style="width: 15%;" class="text-center">Đơn giá</div>
+                <div style="width: 15%;" class="text-center">Số lượng</div>
+                <div style="width: 15%;" class="text-center">Thành tiền</div>
+            </div>
+            <div class="tbody-popup"></div>
+            <div class="tfoot-popup">
+                <div class="tfoot-popup-1 clearfix">
+                    <div class="pull-left popupcon"><a class="button btn-continue" title="Tiếp tục mua hàng" onclick="$('#popup-cart').modal('hide');"><span><span><i class="fa fa-caret-left" aria-hidden="true"></i> Tiếp tục mua hàng</span></span></a></div>
+                    <div class="pull-right popup-total">
+                        <p>Thành tiền: <span class="total-price"></span></p>
+                    </div>
+                </div>
+                <div class="tfoot-popup-2 clearfix"><a class="button btn-proceed-checkout" title="Thanh toán đơn hàng" href="/checkout"><span>Thanh toán đơn hàng</span></a></div>
+            </div>
+        </div>
+        <a class="quickview-close close-window" href="javascript:" onclick="$('#popup-cart').modal('hide');" title="Đóng"><i class="fa fa-times"></i></a>
+    </div>
+</div>
+<div id="myModal" class="modal fade" role="dialog"></div>
+<script src="js/appear.js" type="text/javascript"></script>
+<script src="js/cs.script.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<div class="backdrop__body-backdrop___1rvky"></div>
+<div class="mobile-main-menu">
+    <div class="drawer-header">
+        <a href="account/login">
+            <div class="drawer-header--auth">
+                <div class="_object"><img src="https://bizweb.dktcdn.net/100/348/133/themes/709285/assets/user.svg?1559638811340" alt="Ant Mobile" /></div>
+                <div class="_body">ĐĂNG NHẬP<br>Nhận nhiều ưu đãi hơn</div>
+            </div>
+        </a>
+    </div>
+    <ul class="ul-first-menu">
+        <li><a href="/account/login" title="Đăng nhập">Đăng nhập</a></li>
+        <li><a href="/account/register" title="Đăng ký">Đăng ký</a></li>
+    </ul>
+    <div class="la-scroll-fix-infor-user">
+        <div class="la-nav-menu-items">
+            <div class="la-title-nav-items"><strong>Danh mục</strong></div>
+            <ul class="la-nav-list-items">
+                <li class="ng-scope"><a href="/" title="Trang chủ">Trang chủ</a></li>
+                <li class="ng-scope"><a href="/gioi-thieu" title="Giới thiệu">Giới thiệu</a></li>
+                <li class="ng-scope ng-has-child1">
+                    <a href="product.html" title="Sản phẩm">Sản phẩm <i class="fa fa-plus fa1" aria-hidden="true"></i></a>
+                    <ul class="ul-has-child1">
+                        <li class="ng-scope ng-has-child2">
+                            <a href="/dien-thoai" title="Điện thoại">Điện thoại <i class="fa fa-plus fa2" aria-hidden="true"></i></a>
+                            <ul class="ul-has-child2">
+                                <li class="ng-scope"><a href="/samsung" title="Samsung">Samsung</a></li>
+                                <li class="ng-scope"><a href="/apple" title="Apple">Apple</a></li>
+                                <li class="ng-scope"><a href="/sony" title="Sony">Sony</a></li>
+                                <li class="ng-scope"><a href="/oppo" title="Oppo">Oppo</a></li>
+                                <li class="ng-scope"><a href="/huawei" title="Huawei">Huawei</a></li>
+                                <li class="ng-scope"><a href="/xiaomi" title="Xiaomi">Xiaomi</a></li>
+                                <li class="ng-scope"><a href="/vivo" title="Vivo">Vivo</a></li>
+                            </ul>
+                        </li>
+                        <li class="ng-scope ng-has-child2">
+                            <a href="/tablet" title="Tablet">Tablet <i class="fa fa-plus fa2" aria-hidden="true"></i></a>
+                            <ul class="ul-has-child2">
+                                <li class="ng-scope"><a href="/apple-ipad" title="Apple (iPad)">Apple (iPad)</a></li>
+                                <li class="ng-scope"><a href="/samsung-1" title="Samsung">Samsung</a></li>
+                                <li class="ng-scope"><a href="/lenovo-1" title="Lenovo">Lenovo</a></li>
+                                <li class="ng-scope"><a href="/masstel" title="Masstel">Masstel</a></li>
+                                <li class="ng-scope"><a href="/huawei-1" title="Huawei">Huawei</a></li>
+                                <li class="ng-scope"><a href="/itel" title="Itel">Itel</a></li>
+                            </ul>
+                        </li>
+                        <li class="ng-scope ng-has-child2">
+                            <a href="/laptop" title="Laptop">Laptop <i class="fa fa-plus fa2" aria-hidden="true"></i></a>
+                            <ul class="ul-has-child2">
+                                <li class="ng-scope"><a href="/apple-macbook" title="Apple (Macbook)">Apple (Macbook)</a></li>
+                                <li class="ng-scope"><a href="/asus" title="Asus">Asus</a></li>
+                                <li class="ng-scope"><a href="/acer" title="Acer">Acer</a></li>
+                                <li class="ng-scope"><a href="/dell" title="Dell">Dell</a></li>
+                                <li class="ng-scope"><a href="/hp" title="HP">HP</a></li>
+                                <li class="ng-scope"><a href="/lenovo" title="Lenovo">Lenovo</a></li>
+                                <li class="ng-scope"><a href="/msi" title="MSI">MSI</a></li>
+                            </ul>
+                        </li>
+                        <li class="ng-scope"><a href="/phu-kien" title="Phụ kiện">Phụ kiện</a></li>
+                        <li class="ng-scope"><a href="/dong-ho" title="Đồng hồ">Đồng hồ</a></li>
+                        <li class="ng-scope"><a href="/may-cu" title="Máy cũ">Máy cũ</a></li>
+                    </ul>
+                </li>
+                <li class="ng-scope ng-has-child1">
+                    <a href="/tin-tuc" title="Tin tức">Tin tức <i class="fa fa-plus fa1" aria-hidden="true"></i></a>
+                    <ul class="ul-has-child1">
+                        <li class="ng-scope ng-has-child2">
+                            <a href="/" title="Sản phẩm">Sản phẩm <i class="fa fa-plus fa2" aria-hidden="true"></i></a>
+                            <ul class="ul-has-child2">
+                                <li class="ng-scope"><a href="/dien-thoai" title="Điện thoại">Điện thoại</a></li>
+                                <li class="ng-scope"><a href="/tablet" title="Tablet">Tablet</a></li>
+                                <li class="ng-scope"><a href="/laptop" title="Laptop">Laptop</a></li>
+                                <li class="ng-scope"><a href="/phu-kien" title="Phụ kiện">Phụ kiện</a></li>
+                                <li class="ng-scope"><a href="/dong-ho" title="Đồng hồ">Đồng hồ</a></li>
+                                <li class="ng-scope"><a href="/may-cu" title="Máy cũ">Máy cũ</a></li>
+                            </ul>
+                        </li>
+                        <li class="ng-scope"><a href="/" title="Liên hệ">Liên hệ</a></li>
+                        <li class="ng-scope ng-has-child2">
+                            <a href="/" title="Tin tức">Tin tức <i class="fa fa-plus fa2" aria-hidden="true"></i></a>
+                            <ul class="ul-has-child2">
+                                <li class="ng-scope"><a href="/" title="Sản phẩm">Sản phẩm</a></li>
+                                <li class="ng-scope"><a href="/" title="Liên hệ">Liên hệ</a></li>
+                                <li class="ng-scope"><a href="/" title="Tin tức">Tin tức</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ng-scope"><a href="/lien-he" title="Liên hệ">Liên hệ</a></li>
+            </ul>
+        </div>
+    </div>
+    <ul class="mobile-support">
+        <li>
+            <div class="drawer-text-support">HỖ TRỢ</div>
+        </li>
+        <li><i class="fa fa-phone" aria-hidden="true"></i> HOTLINE: <a href="tel:18006750" title="18006750">1800 6750</a></li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i> EMAIL: <a href="mailto:baotrung304@gmail.com" title="baotrung304@gmail.com">baotrung304@gmail.com</a></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    WebFontConfig = {
+        custom: {
+            families: ['FontAwesome'],
+            urls: ['https://use.fontawesome.com/releases/v5.7.2/css/all.css']
+        }
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+</script>
+<script>
+    $(document).ready(function() {
+        deferimg('#sync1 img', 10);
+        var total_banner = 5;
+        var sync1 = $("#sync1");
+        var sync2 = $("#sync2");
+        var slidesPerPage = (total_banner < 5) ? total_banner : 5;
+        var syncedSecondary = true;
+        sync1.owlCarousel({
+            items : 1,
+            slideSpeed : 2000,
+            nav: true,
+            autoplay: true,
+            dots: false,
+            loop: true,
+            responsiveRefreshRate : 200,
+            navText: "",
+        }).on('changed.owl.carousel', syncPosition);
+        sync2
+            .on('initialized.owl.carousel', function () {
+                sync2.find(".owl-item").eq(0).addClass("current");
+            })
+            .owlCarousel({
+                items : slidesPerPage,
+                dots: false,
+                nav: false,
+                smartSpeed: 200,
+                slideSpeed : 500,
+                slideBy: slidesPerPage,
+                responsiveRefreshRate : 100
+            }).on('changed.owl.carousel', syncPosition2);
+        function syncPosition(el) {
+            var count = el.item.count-1;
+            var current = Math.round(el.item.index - (el.item.count/2) - .5);
+            if(current < 0) {
+                current = count;
+            }
+            if(current > count){
+                current = 0;
+            }
+            sync2
+                .find(".owl-item")
+                .removeClass("current")
+                .eq(current)
+                .addClass("current");
+            var onscreen = sync2.find('.owl-item.active').length - 1;
+            var start = sync2.find('.owl-item.active').first().index();
+            var end = sync2.find('.owl-item.active').last().index();
+            if (current > end) {
+                sync2.data('owl.carousel').to(current, 100, true);
+            }
+            if (current < start) {
+                sync2.data('owl.carousel').to(current - onscreen, 100, true);
+            }
+        }
+        function syncPosition2(el) {
+            if(syncedSecondary) {
+                var number = el.item.index;
+                sync1.data('owl.carousel').to(number, 100, true);
+            }
+        }
+        sync2.on("click", ".owl-item", function(e){
+            e.preventDefault();
+            var number = $(this).index();
+            sync1.data('owl.carousel').to(number, 300, true);
+        });
+    });
+</script>
+<div class="support-cart mini-cart hidden-sm hidden-xs">
+    <a class="btn-support-cart" href="/cart">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 435.104 435.104" style="enable-background:new 0 0 435.104 435.104;" xml:space="preserve" width="30px" height="30px">
+               <g>
+                  <circle cx="154.112" cy="377.684" r="52.736" data-original="#000000" class="active-path" data-old_color="#Ffffff" fill="#FFFFFF"/>
+                   <path d="M323.072,324.436L323.072,324.436c-29.267-2.88-55.327,18.51-58.207,47.777c-2.88,29.267,18.51,55.327,47.777,58.207     c3.468,0.341,6.962,0.341,10.43,0c29.267-2.88,50.657-28.94,47.777-58.207C368.361,346.928,348.356,326.924,323.072,324.436z" data-original="#000000" class="active-path" data-old_color="#F8F8F8" fill="#FFFFFF"/>
+                   <path d="M431.616,123.732c-2.62-3.923-7.059-6.239-11.776-6.144h-58.368v-1.024C361.476,54.637,311.278,4.432,249.351,4.428     C187.425,4.424,137.22,54.622,137.216,116.549c0,0.005,0,0.01,0,0.015v1.024h-43.52L78.848,50.004     C77.199,43.129,71.07,38.268,64,38.228H0v30.72h51.712l47.616,218.624c1.257,7.188,7.552,12.397,14.848,12.288h267.776     c7.07-0.041,13.198-4.901,14.848-11.776l37.888-151.552C435.799,132.019,434.654,127.248,431.616,123.732z M249.344,197.972     c-44.96,0-81.408-36.448-81.408-81.408s36.448-81.408,81.408-81.408s81.408,36.448,81.408,81.408     C330.473,161.408,294.188,197.692,249.344,197.972z" data-original="#000000" class="active-path" data-old_color="#F8F8F8" fill="#FFFFFF"/>
+                   <path d="M237.056,118.1l-28.16-28.672l-22.016,21.504l38.912,39.424c2.836,2.894,6.7,4.55,10.752,4.608     c3.999,0.196,7.897-1.289,10.752-4.096l64.512-60.928l-20.992-22.528L237.056,118.1z" data-original="#000000" class="active-path" data-old_color="#F8F8F8" fill="#FFFFFF"/>
+               </g>
+            </svg>
+        <div class="animated infinite zoomIn kenit-alo-circle"></div>
+        <div class="animated infinite pulse kenit-alo-circle-fill"></div>
+        <span class="cnt crl-bg count_item_pr">0</span>
+    </a>
+    <div class="top-cart-content hidden-md hidden-sm hidden-xs">
+        <ul id="cart-sidebar" class="mini-products-list count_li">
+            <li class="list-item">
+                <ul></ul>
+            </li>
+            <li class="action">
+                <ul>
+                    <li class="li-fix-1">
+                        <div class="top-subtotal">Tổng tiền thanh toán:<span class="price"></span></div>
+                    </li>
+                    <li class="li-fix-2">
+                        <div class="actions clearfix">
+                            <a href="/cart" class="btn btn-primary">Giỏ hàng</a>
+                            <a href="/checkout" class="btn btn-checkout btn-gray">Thanh toán</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="menu-overlay" class=""></div>
+</body>
+</html>

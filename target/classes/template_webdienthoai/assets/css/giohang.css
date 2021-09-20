@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bread-crumb .container .qty input {
+    width: 64px;
+    text-align: center;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #050505;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-left: 15px;
+}
+.bread-crumb .container .button-default {
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+    width: 200px;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 38px;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border: 1px solid #8c8c8c;
+    letter-spacing: 0;
+}
+.bread-crumb .container .bd1 {
+    background: #2bf525;
+}
+.bread-crumb .container .bd2 {
+    background: #0a5bff;
+}
+.bread-crumb .container .nutthanhtoan {
+    margin-left: 100px;
+    margin-top: 100px;
+}
